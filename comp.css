@@ -1,0 +1,53 @@
+@import './styles.css';
+
+.alert-danger{
+    background-color: maroon;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+
+    border: 1px solid gray;
+}
+
+.alert-success{
+    background-color: var(--color-success);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+
+    border: 1px solid gray;
+}
+
+.navigator{
+    background: var(--color-primary);
+    display: block;
+    position: sticky;
+    top: 0px;
+
+    padding: 10px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    all: unset;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.to-top{
+    all: unset;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ending-container{
+    padding-block: 3em;
+    font-weight: bold;
+    font-size: 16px;
+}
