@@ -1,0 +1,33 @@
+header{
+    position: sticky;
+    top: 0;
+}
+
+.nav-container{
+    padding-inline: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.burger-button:hover{
+    color: var(--primary);
+}
+
+#burger-icon{
+    transition: 1s all;
+    fill: blue;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-container{
+        padding-inline: 2em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .nav-container{
+        padding-inline: 4em;
+    }
+}

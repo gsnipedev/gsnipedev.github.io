@@ -1,0 +1,21 @@
+:root{
+    --primary: #EF3E36;
+    --on-primary: red;
+
+    --secondary: red;
+    --on-secondary: red;
+
+    --tertiary: red;
+    --on-tertiary: red;
+
+    --emphasis: red;
+
+    --border: red;
+
+    --success: green;
+    --danger: red;
+    --warning: yellow;
+    --info: skyblue;
+    --dark: black;
+    --light: white;
+}

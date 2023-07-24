@@ -1,0 +1,12 @@
+body{
+    scroll-behavior: smooth;
+    
+    position: relative;
+    margin: 0;
+    font-family: dmsans;
+    font-size: 16px;
+    font-style: normal;
+
+    display: grid;
+    
+}

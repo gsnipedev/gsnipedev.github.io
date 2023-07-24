@@ -1,0 +1,18 @@
+@import "./color-palette.css";
+
+@import "./body.css";
+@import "./container.css";
+@import "./quote.css";
+@import "./button.css";
+@import "./navbar.css";
+@import "./sidebar.css";
+
+@font-face {
+    font-family: 'dmsans';
+    src: url("/assets/font/DMSans-VariableFont_opsz\,wght.ttf") format("truetype"),
+         url('/assets/font/DMSans-Italic-VariableFont_opsz\,wght.ttf') format('truetype');
+         
+}
+
+
+
