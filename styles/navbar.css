@@ -6,10 +6,11 @@ header{
 .nav-container{
     padding-inline: 10px;
     position: relative;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr auto;
     align-items: center; 
     background-color: var(--light);
+    background-color: red;
 }
 
 .burger-button:hover{
