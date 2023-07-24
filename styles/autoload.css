@@ -1,7 +1,11 @@
 @import "./color-palette.css";
 
 @import "./body.css";
+@import "./image.css";
+@import "./divider.css";
+@import "./input.css";
 @import "./container.css";
+@import "./table.css";
 @import "./quote.css";
 @import "./button.css";
 @import "./navbar.css";
