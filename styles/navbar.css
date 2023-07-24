@@ -10,8 +10,6 @@ header{
     justify-content: space-between;
     align-items: center; 
     background-color: var(--light);
-
-    max-width: 100%;
 }
 
 .burger-button:hover{
