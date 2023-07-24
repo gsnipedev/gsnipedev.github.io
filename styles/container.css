@@ -2,6 +2,7 @@
     display: grid;
     justify-content: center;
 }
+
 .big-title{
     font-size: 45px;
 }
@@ -9,14 +10,13 @@
 .container{
     width: 100%;
     max-width: 1024px;  
-    padding-inline: 10px;
+    padding-inline: 20px;
+    box-sizing: border-box;
 }
 
-.contact-container{
+.v-section{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 1fr 1fr;
-    gap: 0;
+    align-items: center;
 }
 
 .section{
@@ -25,22 +25,8 @@
 
 @media screen and (min-width: 768px) {
     .container{
-        padding-inline: 0;
-    }
-    .contact-container{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1em;
-    }
-    
-}
-
-@media screen and (min-width: 1024px) {
-    .contact-container{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2em;
-    }
+        padding-inline: 20px;
+    }   
 }
 
 

@@ -9,8 +9,6 @@ header{
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center; 
-    background-color: var(--light);
-    background-color: red;
 }
 
 .burger-button:hover{

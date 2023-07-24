@@ -27,11 +27,8 @@
     </header>
 
     <main>
-      <br />
-      <br />
-      <br />
       <div class="master-container">
-        <section class="section" id="about-me">
+        <section class="section v-section" id="about-me">
           <div class="container">
             <h1 class="big-title" data-value="I'M ANDIKA WAHYUDI">
               I'M ANDIKA WAHYUDI
@@ -67,10 +64,10 @@
           </div>
         </section>
 
-        <section class="section" id="contact">
+        <section class="section v-section" id="contact">
           <div class="container contact-container">
-            <div>
-              <img src="/assets/image/andika.jpg" id="contact-image" />
+            <div id="contact-image">
+              <img src="/assets/image/andika.jpg  " id="contact-image" />
             </div>
 
             <div>
@@ -133,31 +130,43 @@
                   <tbody>
                     <tr>
                       <td>
-                        <button class="social-button">
+                        <a
+                          class="social-button"
+                          href="https://github.com/gsnipedev"
+                          target="_blank"
+                        >
                           <img
                             src="/assets/icon/github.svg"
                             alt="github icon"
                             width="30"
                           />
-                        </button>
+                        </a>
                       </td>
                       <td>
-                        <button class="social-button">
+                        <a
+                          class="social-button"
+                          href="https://www.linkedin.com/in/andika-wahyudi-4bb655240/"
+                          target="_blank"
+                        >
                           <img
                             src="/assets/icon/linkedin.svg"
                             alt="github icon"
                             width="45"
                           />
-                        </button>
+                        </a>
                       </td>
                       <td>
-                        <button class="social-button">
+                        <a
+                          class="social-button"
+                          href="https://www.instagram.com/andika_wahyudi_/"
+                          target="_blank"
+                        >
                           <img
                             src="/assets/icon/instagram.svg"
                             alt="github icon"
                             width="30"
                           />
-                        </button>
+                        </a>
                       </td>
                     </tr>
                   </tbody>
@@ -168,6 +177,16 @@
         </section>
       </div>
     </main>
+
+    <br />
+
+    <footer>
+      <div class="master-container">
+        <div class="container">
+          <h4>Designed and built by Andika Wahyudi</h4>
+        </div>
+      </div>
+    </footer>
 
     <div class="sidebar-container" id="sidebar">
       <div class="sidebar-sticker">
@@ -192,7 +211,12 @@
 
           <hr class="sidebar-menu-divider" />
 
-          <a href="#contact" class="sidebar-menu-item"><h2>Resume</h2></a>
+          <a
+            href="assets/document/Andika-Wahyudi-Pratama.pdf"
+            target="_blank"
+            class="sidebar-menu-item"
+            ><h2>Resume</h2></a
+          >
           <a href="#contact" class="sidebar-menu-item"><h2>Work</h2></a>
           <a href="#contact" class="sidebar-menu-item"><h2>Gallery</h2></a>
         </div>
