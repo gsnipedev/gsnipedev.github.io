@@ -1,3 +1,32 @@
 #contact-image{
     width: 100%;
 }
+
+.project-picture{
+    object-fit: contain; 
+    border-radius: 5px;
+    width: 100%;
+}
+
+.project-picture-overlay{
+    background-color: #FFFFFF50;
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.2s ease-in;
+    display: none;
+}
+
+.project-picture-overlay:hover{
+    background-color: transparent;
+}
+
+@media screen and (min-width: 1024px) {
+    .project-picture{
+        height: 310px;
+    }
+    .project-picture-overlay{
+        display: block;
+    }
+}

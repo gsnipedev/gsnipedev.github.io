@@ -9,6 +9,7 @@ header{
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center; 
+    background-color: var(--light);
 }
 
 .burger-button:hover{
@@ -22,6 +23,7 @@ header{
 @media screen and (min-width: 768px) {
     .nav-container{
         padding-inline: 2em;
+        background-color: transparent;
     }
 }
 

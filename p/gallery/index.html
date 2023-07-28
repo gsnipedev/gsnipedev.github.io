@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/autoload.css" />
+    <script src="/scripts/autoload.js"></script>
+    <title>Andika Wahyudi - Work</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-container">
+          <div>
+            <h1><a href="/" class="no-style-anchor">Andika W.</a></h1>
+          </div>
+          <div>
+            <button class="burger-button" onclick="toggleSidebarOn()">
+              <img
+                data-open="false"
+                src="/assets/icon/burger-menu-right-svgrepo-com.svg"
+                alt="More menu icon"
+                height="40"
+              />
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section">
+        <center><h2>Theres no image yet..</h2></center>
+      </section>
+    </main>
+
+    <br />
+
+    <footer>
+      <center>
+        <h4>Designed and built by Andika Wahyudi</h4>
+      </center>
+    </footer>
+
+    <div class="sidebar-container" id="sidebar">
+      <div class="sidebar-sticker">
+        <div class="sidebar-header">
+          <button
+            class="burger-button"
+            id="burger-off-button"
+            onclick="toggleSidebarOff()"
+          >
+            <img
+              data-open="false"
+              src="/assets/icon/close-svgrepo-com.svg"
+              alt="More menu icon"
+              height="40"
+            />
+          </button>
+        </div>
+
+        <div class="sidebar-menu">
+          <a href="/#about-me" class="sidebar-menu-item"><h2>About Me</h2></a>
+          <a href="/#contact" class="sidebar-menu-item"><h2>Contact</h2></a>
+
+          <hr class="sidebar-menu-divider" />
+
+          <a
+            href="/assets/document/Andika-Wahyudi-Pratama.pdf"
+            target="_blank"
+            class="sidebar-menu-item"
+            ><h2>Resume</h2></a
+          >
+          <a href="/p/work/" class="sidebar-menu-item"><h2>Work</h2></a>
+          <a href="/p/gallery" class="sidebar-menu-item"><h2>Gallery</h2></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

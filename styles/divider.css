@@ -1,3 +1,9 @@
 .divider{
     width: calc(100% - 20px);
 }
+
+.hoz-separator{
+    width: 100%;
+    background-color: var(--dark);
+    height: 2px;
+}

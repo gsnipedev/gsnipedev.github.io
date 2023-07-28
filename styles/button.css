@@ -31,6 +31,10 @@
   transition: all .5s ease-out;
 }
 
+a{
+  color: var(--dark);
+}
+
 .social-button{
   all: unset;
   cursor: pointer;
@@ -50,6 +54,15 @@
 .no-style-anchor{
   color: var(--dark);
   text-decoration: none;
+}
+
+.repo-button{
+  background-color: transparent;
+  border: none;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  border-radius: 5px;
 }
 
 @keyframes popAnimation {

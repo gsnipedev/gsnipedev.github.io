@@ -9,7 +9,7 @@
 
 .container{
     width: 100%;
-    max-width: 1024px;  
+    max-width: 1024px;
     padding-inline: 20px;
     box-sizing: border-box;
 }
@@ -23,11 +23,133 @@
     height: 100vh;
 }
 
+.project{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.project-image{
+    overflow: hidden;
+    padding: 10px;
+    border: 2px solid var(--dark);
+    grid-column: 1 / -1;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+}
+
+.project-image-2{
+    overflow: hidden;
+    padding: 10px;
+    border: 2px solid var(--dark);
+    grid-column: 1 / -1;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+}
+
+.heading-container{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.project-info{
+    text-align: right;
+    grid-column: 1 / -1;
+    width: 100%;
+    height: 100%;
+}
+
+.project-info-2{
+    text-align: right;
+    grid-column: 1 / -1;
+    width: 100%;
+    height: 100%;
+}
+
+.floating-container{
+    padding: 0;
+}
+
+.tech-stack{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, auto);
+    justify-content: end;
+    font-weight: 500;
+}
+
+.tech-stack-2{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, auto);
+    justify-content: end;
+    font-weight: 500;
+}
+
 @media screen and (min-width: 768px) {
     .container{
         padding-inline: 20px;
     }   
 }
 
+@media screen and (min-width: 1024px) {
+    .project{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        position: relative;
+    }
+
+    .project-info{
+        position: absolute;
+        grid-column: 7 / -1;
+    }
+
+    .project-info-2{
+        position: absolute;
+        grid-column: 1 / 7;
+        text-align: left;
+    }
+
+    .floating-container{
+        background-color: var(--light);
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border: 2px solid var(--primary);
+    }
+
+    .project-image{
+        overflow: hidden;
+        padding: 10px;
+        border: 2px solid var(--dark);
+        grid-column: 1 / 8;
+        display: grid;
+        place-items: center;
+        border-radius: 8px;
+    
+        position: relative;
+    }
+
+    .project-image-2{
+        overflow: hidden;
+        padding: 10px;
+        border: 2px solid var(--dark);
+        grid-column: 6 / -1;
+        display: grid;
+        place-items: center;
+        border-radius: 8px;
+    
+        position: relative;
+    }
+
+    .tech-stack-2{
+        justify-content: start;
+    }
+}
 
 
